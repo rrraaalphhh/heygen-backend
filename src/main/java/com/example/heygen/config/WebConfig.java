@@ -13,7 +13,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // or "/api/**"
-                        .allowedOrigins("http://localhost:5173")
+                        .allowedOrigins("https://heygen-backend-1.onrender.com")
                         .allowedMethods("*") // GET, POST, etc.
                         .allowedHeaders("*");
             }
